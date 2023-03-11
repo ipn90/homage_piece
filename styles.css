@@ -13,7 +13,7 @@ body {
 }
 
 p {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .page-header {
@@ -54,9 +54,7 @@ header {
 .btn btn-info {
 background: white;
 }
-.flex-container {
-  display: flex;
-}
+
 
 .menu-toggle {
   display: inline-flex;
@@ -101,10 +99,7 @@ background: white;
   height: auto;
 }
 
-.flex-container {
-  display: flex;
-  /* justify-content: ; */
-}
+
 .lower-container {
   display: flex;
 }
@@ -112,6 +107,4 @@ background: white;
   display: flex;
   justify-content: space-between;
 }
-.pret-container {
-  display: flex;
-}
+
