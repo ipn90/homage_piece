@@ -89,6 +89,20 @@ header .container-fluid .navebar-content .navbar-nav li a:hover {
   margin-right: 25px;
 }
 
+.left-image-container .text .find-btn {
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000;
+  margin-top: 10px;
+}
+
+.left-image-container .text .find-btn:hover {
+  background-color: #8a082c;
+  color: #fff;
+}
+
 .right-image-container {
   display: -webkit-box;
   display: -ms-flexbox;

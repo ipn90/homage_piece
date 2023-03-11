@@ -78,6 +78,20 @@ header{
         max-width: 380px;
         margin-right: 25px;
     }
+    .text{
+        .find-btn{
+            border: 1px solid #000;
+            border-radius: 8px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #000;
+            margin-top: 10px;
+            &:hover{
+                background-color: $default_color;
+                color: #fff;
+            }
+        }
+    }
 
 }
 .right-image-container{
