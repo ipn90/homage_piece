@@ -8,14 +8,14 @@
 <!-- <link rel="stylesheet" href="generics.css"> -->
 <!-- YOUR STYLES -->
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="custom.css">
+
 
 <body>
   <header>
     <div class="container flex-container">
       <nav class="navbar navbar-default borderless">
         <div class="container-fluid">
-          <div class="d-flex">
+          <div class="navebar-content">
             <div class="navbar-header">
               <a href="https://www.pret.co.uk/en-GB/orderonline" class="header-logo"><img class="logo"
                   src="./images/pret-a-manger-logo.png" alt="* PRET *"></a>
@@ -41,7 +41,7 @@
 
   <main>
     <!-- Flavour full. Fuss free. section-->
-    <section class="mt-5 mb-5">
+    <section class="banner">
       <img src="./images/front-page/flavour-full.jpg" alt="flavour-full" class="fullwidth-img" />
       <div class="top-content">
         <div class="top-container">
@@ -50,7 +50,7 @@
             at
             just £2.99*. Simply great flavour (no fuss).</p>
           <p>*Price and participation may vary. For full range see <a
-              href="https://www.pret.co.uk/en-GB/our-menu">here</a>.
+              href="https://www.pret.co.uk/en-GB/our-menu" class="link">here</a>. Subject to availability. .
           </p>
           <div class="cta-btn-div">
             <a href="#" class="btn cta-btn">Find your nearest Pret</a>
@@ -63,17 +63,17 @@
 
     <!-- Wrap images and text-->
     <!-- Apps store downloads x 2-->
-    <section>
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-4 text-center">
-          <img src="./images/front-page/pret-coffee.webp" class="img img-fluid">
+    <section class="left-image-container">
+      
+        <div class="image">
+          <img src="./images/front-page/pret-coffee.webp" >
         </div>
-        <div class="col-md-4">
+        <div class="text">
           <h1>Pret Coffee Subscription</h1>
           <p>Enjoy up to five Barista-made drinks (organic coffees, teas, hot chocolates and more) a day. All for £12.50
             for your first month, and then £25 after that. Find out more here or download the App to subscribe!</p>
         </div>
-      </div>
+      
 
     </section>
 
@@ -81,21 +81,19 @@
     <!-- Wrap images and text-->
     <!-- Find out more here - anchor tags-->
 
-    <section>
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-4 left">
-          <img src="./images/front-page/new-menu.webp" class="img img-fluid">
-        </div>
-        <div class="col-md-4">
+    <section class="right-image-container">
+        <div class="text">
           <h1>Our New Menu is Here</h1>
           <p>Oh NO(duja) we didn’t, well actually…. we did. Our new 2023 menu is here and it's not just for
             veggies...our new vegan products are here for your meat free Mondays, Sundays and every day in between. </p>
           <p>Pop into shop or order for delivery today. </p>
-          <p> <a href="#" class="btn btn-info" role="button">Find out more</a></p>
+          <div> <a href="#" class="find-btn" role="button">Find out more</a></div>
           <i class="fa-brands fa-apple"></i>
           <i class="fa-brands fa-google-play"></i>
         </div>
-      </div>
+        <div class="image">
+          <img src="./images/front-page/new-menu.webp" >
+        </div>
 
     </section>
 
