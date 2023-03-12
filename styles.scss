@@ -8,6 +8,9 @@ h1{
 }
 .link{
     color: $default_color;
+    &:hover{
+        text-decoration: none;
+    }
 }
 header{
  .container-fluid{
@@ -15,6 +18,9 @@ header{
     margin: 0 auto;
     .navebar-content{
         display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        padding-bottom: 15px;
         .navbar-header{
 
             .header-logo{
@@ -36,6 +42,16 @@ header{
                         color: $default_color;
                     }
                 }
+            }
+        }
+        .sign-in{
+            display: flex;
+            align-items: center;
+            a{
+                text-decoration: none;
+                color: #000;
+                font-size: 18px;
+                margin-left: 5px;
             }
         }
     }
@@ -118,4 +134,141 @@ header{
         }
     }
 
+}
+
+
+.pret-container{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    .pret-menu-container{
+        ul{
+            display: flex;
+            justify-content: space-between;
+            .middle{
+                border-left: 1px solid #cccaca;
+                border-right: 1px solid #cccaca;
+                padding: 0 20px;
+            }
+            li{
+                display: flex;
+                flex-direction: column;
+                list-style-type: none;                
+                .cta-btn{
+                    border: 1px solid #000;
+                    border-radius: 8px;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    color: #000;
+                    margin-top: 10px;
+                    &:hover{
+                        background-color: $default_color;
+                        color: #fff;
+                    } 
+                }
+            }
+        }
+    }
+}
+
+.menu-container{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        .grid-item{
+            border: 1px solid #000;
+            border-radius: 8px;
+            margin: 5px;
+            a{
+                text-decoration: none;
+                color: #000;
+                font-size: 18px;
+                font-weight: 700;
+                img{
+                    max-width: 200px;
+                    border-radius: 8px;
+                }
+                p{
+                    text-decoration: none;
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+}
+
+.half-container{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    .customer-btn{
+        border: 1px solid #000;
+            border-radius: 8px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #000;
+            margin-top: 10px;
+            &:hover{
+                background-color: $default_color;
+                color: #fff;
+            }
+    }
+}
+
+footer{
+    .main-footer{
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 80px;
+        .footer-menu{
+            display: flex;
+            .menu{
+                display: flex;
+                p{
+                    margin-left: 25px;
+                    font-size: 20px;
+                }
+                .list{
+                    li{
+                        list-style-type: none;
+                        padding-bottom: 10px;
+                    a{
+                        text-decoration: none;
+                        &:hover{
+                            color: $default_color;
+                        }
+                    }
+                    }
+                }
+            }
+
+            .footer-social{
+                margin-left: 80px;
+                margin-top: 20px;
+                .switch-country{
+                    select{
+                        width: 100%;
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .footer-bottom{
+        display: flex;
+        margin-top: 40px;
+        img{
+            width: 100px;
+        }
+        .footer-logo-content{
+            margin-left: 10px;
+            font-size: 12px;
+        }
+    }
 }
